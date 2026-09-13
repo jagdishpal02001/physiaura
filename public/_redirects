@@ -1,0 +1,2 @@
+/* Netlify SPA fallback — if netlify.toml is ignored, this still saves routing */
+/* /index.html 200

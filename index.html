@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Physiaura — Home Physiotherapy in Pune | Qualified Physios at Your Doorstep</title>
+    <meta
+      name="description"
+      content="Physiaura brings qualified physiotherapists (BPT, MPT) to your home in Pune. Stroke rehab, back pain, knee replacement, Parkinson's, elderly & child physio — one-to-one care. Call / WhatsApp 74411 11488."
+    />
+    <meta name="theme-color" content="#0b2540" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0b1526" media="(prefers-color-scheme: dark)" />
+    <meta property="og:title" content="Physiaura — Move Better. Recover Stronger. Live Better." />
+    <meta
+      property="og:description"
+      content="Personalised 1-to-1 physiotherapy at home in Pune. Neuro, ortho, post-surgical, paediatric & geriatric rehab."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500;1,9..144,600&family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      // Avoid theme flash: apply saved / system theme before React mounts
+      try {
+        var t = localStorage.getItem('physiaura-theme');
+        if (t !== 'light' && t !== 'dark') {
+          t = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+        document.documentElement.dataset.theme = t;
+        document.documentElement.style.colorScheme = t;
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
