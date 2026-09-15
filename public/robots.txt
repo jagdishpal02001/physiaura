@@ -1,0 +1,6 @@
+# Robots.txt for Physiaura (https://physiaura.in)
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://physiaura.in/sitemap.xml

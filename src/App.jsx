@@ -229,6 +229,7 @@ export default function App() {
           <div className="hero-copy">
             <Label>HOME PHYSIOTHERAPY IN PUNE</Label>
             <h1>
+              <span className="sr-only">Home Physiotherapy in Pune — </span>
               Get back to
               <br />
               what <em>moves you.</em>
@@ -259,7 +260,7 @@ export default function App() {
           <div className="hero-visual">
             <img
               src="/images/physiotherapy.jpg"
-              alt="Physiotherapist assessing a patient’s back and shoulder movement"
+              alt="Physiaura physiotherapist assessing a patient’s back and shoulder movement during a home visit in Pune"
               width="1200"
               height="800"
               fetchPriority="high"
@@ -376,7 +377,7 @@ export default function App() {
               </div>
               <img
                 src="/images/guided-movement.jpg"
-                alt="A woman indicating the area of discomfort in her neck and shoulder"
+                alt="Patient indicating neck and shoulder discomfort during home physiotherapy assessment in Pune"
                 width="1000"
                 height="667"
                 loading="lazy"
@@ -390,7 +391,7 @@ export default function App() {
             <div className="home-photo">
               <img
                 src="/images/physiotherapy.jpg"
-                alt="Hands-on physiotherapy focused on an individual patient"
+                alt="Personalised one-to-one home physiotherapy session in Pune"
                 width="1200"
                 height="800"
                 loading="lazy"
