@@ -290,6 +290,7 @@ export default function App() {
               aria-hidden="true"
             >
               <path d="M8 87C105 66 87 0 53 14S52 108 101 18" />
+
             </svg>
           </div>
         </section>
